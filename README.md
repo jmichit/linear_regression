@@ -10,18 +10,33 @@ Using linear regression, can we build an effedtive model to predict plery longev
 
 
 Features used may include:
-
 - College
 - Age at draft
 - Pick number
+
+College Stats
 - College games played
 - Years Played in College
 
+Physical statistices
+- Height
+- Weight
 
+Combine statstics
+- forty_yd	
+- vertical	
+- bench_reps	
+- broad_jump	
+- cone	
+- shuttle
 
 ## Data Sources
 
 NFL draft data - order, player, position, college
 - www.pro-football-reference.com
+
+NFL combine data - physical statistics and drills
+- www.pro-football-reference.com
+
 
 Other TBD websites, such as Wikipedia to obtain supplemental player data
