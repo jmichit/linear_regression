@@ -39,16 +39,16 @@ Linear model with one key feature ("draft pick") as the base, then compared iwth
 
 ### Model Evaluation and Selection
 
-Training dataset was split into train vs. test 80/20 split with 5 fold cross validation used for LinearRegression, LassoCV, and RidgeCV. 
+Training dataset was split into train vs. test 80/20 split with 5 fold cross validation used for LinearRegression, LassoCV, and RidgeCV (and DecisionTree).
 
-LassoCV adn RidgeCV 
+All models returned low R-squared, but the LassoCV slightly beat out the LinearRegression (.28 to .25) and was much simpler than the RidgeCV (.30) with removal of about 1/2 the polynomial features. DecisionTree provided .17 R-squareed with a depth of 5.
 
 ## Tools
 
 Numpy and Pandas for data manipulation
 Matplotlib / Seaborn for plotting
 BeautifulSoup for HTML scraping, pickle for archiving html 
-Scikit-learn packages modeling
+Scikit-learn packages for modeling
 
 ## Communication
 
